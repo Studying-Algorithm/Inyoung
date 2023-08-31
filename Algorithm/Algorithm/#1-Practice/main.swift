@@ -31,3 +31,10 @@ let mulArr_map = numArr_map.map { num in
 */
 
 print(mulArr_map)
+
+// 정수 여러 개 입력받기
+
+let input = readLine()!.split(separator: " ").map {
+    Int($0)! * 2
+}
+print(input)
