@@ -1,4 +1,5 @@
 //
+//  2562.swift
 //  BOJ_1264.swift
 //  Algorithm
 //
@@ -7,12 +8,12 @@
 
 import Foundation
 
-while true {
-    let input = readLine()!
-    if input == "#" { break }
-    
-    let str = input.lowercased().map{String($0)}
-    
-    let count = str.filter{$0 == "a" || $0 == "e" || $0 == "i" || $0 == "o" || $0 == "u"}.count
-    print(count)
+var numbers: [Int] = []
+
+for _ in 1...9 {
+    numbers.append(Int(readLine()!)!)
 }
+
+let maximum = numbers.max()!
+let indexOfMaximum = numbers.firstIndex(of: maximum)! + 1
+print("\(maximum)\n" + "\(indexOfMaximum)")
