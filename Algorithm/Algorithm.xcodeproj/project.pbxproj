@@ -63,6 +63,7 @@
 		147A87B82AA07AF300C5FEFB /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				14DED9AC2AA49BFF002E7C43 /* BOJ */,
 				147A87C02AA07FA000C5FEFB /* #1-Practice */,
 			);
 			path = Algorithm;
@@ -73,7 +74,7 @@
 			children = (
 				147A87B92AA07AF300C5FEFB /* 정수형_입력받기.swift */,
 				147A87C22AA0820E00C5FEFB /* 개행_단위_입력받기.swift */,
-				147A87C42AA09CB700C5FEFB /* main.swift */,
+				147A87C42AA09CB700C5FEFB /* 정수_여러개_입력받기.swift */,
 			);
 			path = "#1-Practice";
 			sourceTree = "<group>";
